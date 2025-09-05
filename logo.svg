@@ -1,0 +1,36 @@
+<svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="white"/>
+  <g id="dynamic-neural-network">
+    <g id="background-connections" stroke="black" stroke-width="0.5" fill="none" opacity="0.4">
+      <path d="M 25 25 Q 40 50, 28 72" />
+      <path d="M 75 25 Q 60 50, 72 72" />
+      <path d="M 25 25 Q 50 10, 75 25" />
+      <path d="M 28 72 Q 50 90, 72 72" />
+    </g>
+    <g id="main-connections" stroke="black" fill="none">
+      <path d="M 50 50 Q 38 38, 25 25" stroke-width="1.2" />
+      <path d="M 50 50 Q 62 38, 75 25" stroke-width="1.2" />
+      <path d="M 50 50 Q 38 62, 28 72" stroke-width="1.2" />
+      <path d="M 50 50 Q 62 62, 72 72" stroke-width="1.2" />
+      <path d="M 25 25 Q 50 35, 75 25" stroke-width="0.8" opacity="0.8"/>
+      <path d="M 28 72 Q 50 62, 72 72" stroke-width="0.8" opacity="0.8"/>
+      <path d="M 25 25 Q 20 50, 28 72" stroke-width="0.8" opacity="0.8"/>
+      <path d="M 75 25 Q 80 50, 72 72" stroke-width="0.8" opacity="0.8"/>
+      <path d="M 25 25 Q 12 15, 15 10" stroke-width="0.7" opacity="0.9"/>
+      <path d="M 72 72 Q 85 85, 88 85" stroke-width="0.7" opacity="0.9"/>
+    </g>
+    <g id="nodes" stroke="none" fill="black">
+      <circle cx="50" cy="50" r="8"/>
+      <g id="hollow-nodes" fill="none" stroke="black" stroke-width="1.5">
+        <circle cx="25" cy="25" r="6"/>
+        <circle cx="75" cy="25" r="6"/>
+        <circle cx="28" cy="72" r="6"/>
+        <circle cx="72" cy="72" r="6"/>
+      </g>
+      <circle cx="15" cy="10" r="3"/>
+      <circle cx="88" cy="85" r="3"/>
+      <circle cx="85" cy="50" r="2.5" opacity="0.7"/>
+      <circle cx="18" cy="50" r="2.5" opacity="0.7"/>
+    </g>
+  </g>
+</svg>
